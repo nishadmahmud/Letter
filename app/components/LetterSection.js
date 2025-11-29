@@ -209,6 +209,7 @@ export default function LetterSection() {
                       height={0}
                       sizes="100vw"
                       style={{ width: '100%', height: 'auto' }}
+                      loading="eager"
                     />
                   ) : (
                     <div className="relative h-[400px] w-full flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-50 border-2 border-white/50">

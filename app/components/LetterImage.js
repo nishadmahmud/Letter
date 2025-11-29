@@ -21,6 +21,7 @@ export default function LetterImage() {
                     sizes="100vw"
                     style={{ width: '100%', height: 'auto' }}
                     className="block"
+                    loading="eager"
                 />
             </motion.div>
         </section>
