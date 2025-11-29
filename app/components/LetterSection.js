@@ -100,7 +100,7 @@ const Episodes = [
   },
   {
     title: "Episode Five",
-    subtitle: "Intimate Moments — The Quiet Magic",
+    subtitle: "Intimate Moments - The Quiet Magic",
     text: [
       "Not intimate in a physical sense… but in the way anime shows intimacy:",
       "- The way you lean on me when you're tired",
@@ -147,6 +147,7 @@ const Episodes = [
 export default function LetterSection() {
   return (
     <section className="relative w-full bg-white py-20 overflow-hidden">
+      <FloatingIcons />
       {/* Intro */}
       <div className="flex min-h-[60vh] flex-col items-center justify-center text-center px-4 mb-20">
         <motion.div
